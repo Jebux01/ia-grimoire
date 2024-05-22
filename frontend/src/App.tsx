@@ -198,7 +198,7 @@ function App() {
       type: "string",
     },
     {
-      field: "actions",
+      field: "Acciones",
       type: "actions",
       headerName: "Actions",
       width: 100,
