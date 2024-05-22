@@ -1,4 +1,4 @@
-from app.db import exec_query, insert, join, select
+from app.db import exec_query, insert, join
 from app.schemas.magicians import CreateMagician, Magician, CreatedMagician
 from typing import Dict, List, Optional
 from fastapi import HTTPException, status

@@ -2,10 +2,9 @@
 Module with the model of business logic for the Magicians section
 """
 
-from typing import Any, Callable, Dict, List, Mapping, Optional
+from typing import Callable, Dict, List, Mapping, Optional
 
 from fastapi import HTTPException, status
-from sqlalchemy import and_
 
 from app.db import exec_query, insert, select, update
 from app.model.grimoire import select_grimoire

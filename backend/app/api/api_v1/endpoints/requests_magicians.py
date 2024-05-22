@@ -1,7 +1,7 @@
 """Module with the endpoints for Magicians section"""
 
 from typing import List, Dict, Mapping
-from fastapi import APIRouter, HTTPException, requests, status
+from fastapi import APIRouter, status
 from app.model.requests import (
     create_request,
     delete_request,

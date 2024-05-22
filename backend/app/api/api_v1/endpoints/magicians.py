@@ -3,7 +3,7 @@ This file contains the endpoints for the magicians table.
 """
 
 from typing import List, Mapping
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, status
 
 from app.schemas.magicians import Magician
 from app.model.magicians import get_magicians as get_am

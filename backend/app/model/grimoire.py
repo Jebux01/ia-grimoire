@@ -1,5 +1,5 @@
 import random
-from typing import Dict, List, Optional
+from typing import List, Optional
 
 from app.config import PROBABILITY_GRIMOIRE, PROBABILITY_TYPE_MAGICIAN, TYPES_GRIMOIRES
 from app.db import exec_query, insert, select
